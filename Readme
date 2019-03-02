@@ -1,0 +1,12 @@
+Angepasster Sketch für Arduino NANO zur Steuerung eines Steppermotors für eine Drehscheibe.
+
+Unter Thingiverse https://www.thingiverse.com/thing:3461116 kann eine kleine Beschreibung für den Bau der Drehscheibe gefunden werden. 
+
+Unter YouTube  ist auch ein Video eingestellt.
+
+Auf http://www.dccinterface.com ist die Platine zur Steuerung des Steppermotors mit der 
+Bezeichnung "Model Railway DCC Turntable Accessory Decoder for Arduino Nano" erhältlich.
+
+Die Einrichtung der Bibliotheken und der Original-Sketch ist unter 
+https://www.dccinterface.com/how-to/dcc-stepper-controller-a4988-example-sketch/ 
+beschrieben.
