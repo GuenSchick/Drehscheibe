@@ -28,10 +28,10 @@ typedef struct
   int stationBack;
 }
 DCCAccessoryAddress;
-DCCAccessoryAddress gAddresses[12];
+DCCAccessoryAddress gAddresses[12];  //Anzahl der Gleisabgänge/Haltepunkte
 
 // for a 1.8 deg stepper, there are 200 full steps
-#define FULL_STEPS_PER_REVOLUTION 889
+#define FULL_STEPS_PER_REVOLUTION 889 // für das von mir verwendete Getriebe angepasst.
 
 // Uncomment the lime below for the Driver Board Settings
 //#define FULL_TURN_STEPS (FULL_STEPS_PER_REVOLUTION)     // full steps
@@ -214,7 +214,7 @@ void loop()
     bInterruptDetected = false;
     bHomePositionFound = true;
 
-    Serial.println(F("Found Home - Ssetting Current Position to 0"));
+    Serial.println(F("Found Home - Setting Current Position to 0"));
 
     stepper1.setCurrentPosition(0);
 
